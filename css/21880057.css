@@ -88,15 +88,28 @@ h1 {
     background-color: var(--web1-green);
 }
 
+#banner-small{
+    background-image: url('../images/bg-banner.gif');
+    padding: 5px;
+}
+
 /*Products*/
 .readmore {
     color:var(--web1-blue);
     margin-top: -4px !important;
 }
 
+.web1-text-blue {
+    color: var(--web1-blue);
+}
+
 /*About us*/
 #aboutus {
     background-color: var(--web1-pink);
+}
+
+#about-us h4{
+    color: black;
 }
 
 #formSignup {
@@ -107,6 +120,8 @@ h1 {
 /*News*/
 #news .date {
     background-color: var(--web1-green);
+    width: 6rem;
+    padding: 1.5rem;
 }
 /*Footer*/
 footer {
@@ -131,84 +146,14 @@ footer {
     background-color: var(--web1-blue);
     color: white;
 }
-/* about page
 
-#small-banner {
-    background: url(../images/bg_slider.gif) center top repeat;
-    padding: 0.25em;
-    content: "";
-}
 
-.round-img {
-    border-radius: 15px;
-    float: left;
-    margin-right: 15px;
+/*Testimonials*/
+#testimonials {
+    background-color: var(--web1-pink);
 }
 
 #testimonials .col {
-    background: url(../images/quot.png) top left no-repeat;
-    padding-left: 50px;
+    background: url('../images/quot.png') left top no-repeat;
+    padding-left: 3rem;
 }
-
-#testimonials h3 {
-    margin-left: -10px;
-}
-
-.image-rounded {
-    border-radius: 1em;
-}
- */
-
-/* Blog page 
-
-.list {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.list li {
-    padding-bottom: 10px;
-    padding-left: 24px;
-    background: url(../images/marker1.png) 0 4px no-repeat;
-}
-
-.list a {
-    color: #7c7c7c;
-    text-decoration: none;
-}
-
-.list a:hover {
-    color: #73c926;
-}
-
-.blog,
-.clearfix {
-    clear: both;
-}
-
-.frm-comment {
-    font-size: 0.75em;
-}
-
-button[type="submit"].btn-link {
-    text-decoration: underline;
-}
-
-hr {
-    border-top: 1px solid #000 !important;
-}
-
-.comment {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 30px;
-}
-
-.head {
-    margin-bottom: 10px;
-}
-
-.user {
-    margin-right: 10px;
-}
-*/
