@@ -18,7 +18,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" href="css/21880057.css">
-  </head>
+</head>
 
 <body>
   <header class="container">
@@ -34,7 +34,7 @@
         <div class="collapse navbar-collapse" id="menu-header">
           <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="#" aria-current="page">Home<span class="visually-hidden">(current)</span>
+              <a class="nav-link" href="index.html">Home</a>
               </a>
             </li>
             <li class="nav-item">
@@ -44,7 +44,7 @@
               <a class="nav-link" href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blogs</a>
+              <a class="nav-link active" href="blog.html">Blogs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contacts.html">Contacts</a>
@@ -62,204 +62,200 @@
       </div>
     </nav>
   </header>
-    <!--Small banner-->
-    <div class="container-fluid" id="small-banner"> </div>
-
-
-    <!--Blog-->
-    <div class="container py-5" id="content">
-        <div class="row">
-            <div class="col-md-9">
-                <h3 class="text-dark">Blog</h3>
-                <div id="blogs">
-                    <div class="blog py-3">
-                        <h4>Donec eu elit in nisi placerat</h4>
-                        <div>by Super User in 
-                            <a href="#" onclick="loadBlogsByCategory(36)">Blog.
-                    Curabitur eu dignissim velit</a> 
-                            on Tue, Jul 3, 2018, GMT+7 Hits: 210 
-                            <a href="#comments" onclick="loadBlogById(37)">Comments (3)</a>
-                        </div>
-                        <div class="py-3">
-                            <img src="images/blog/blog-thumb1.jpg" alt="" class="round-img pull-left img-thumbnail"> In neque arcu, vulputate vitae dignissim id, placerat adipiscing lorem. Nulla consectetur adipiscing metus vel pulvinar. Aenean molestie mauris non diam tincidunt faucibus. Integer odio dui, iaculis in congue eleifend, faucibus nec diam. Maecenas ac est odio, at dignissim dolor. Quisque gravida, purus vitae varius sagittis, odio erat venenatis nibh, eu interdum diam est eu sem. Vivamus luctus lectus sit amet lectus egestas cursus.
-                            <br>
-                            <br>
-                            <a href="#" class="readmore" onclick="loadBlogById(37)">Read more</a>
-                        </div>
-                    </div>
-                    <div class="blog py-3">
-                        <h4>In neque arcu, vulputate vitae</h4>
-                        <div>by Super User in 
-                            <a href="#" onclick="loadBlogsByCategory(35)">Blog.
-                            Vivamus congue turpis in augue</a>
-                            on Fri, Jan 25, 2013, GMT+7 Hits: 210 
-                            <a href="#comments" onclick="loadBlogById(38)">Comments (4) </a>
-                        </div>
-                        <div class="py-3">
-                            <img src="images/blog/blog-thumb2.jpg" alt="" class="round-img pull-left img-thumbnail"> In neque arcu, vulputate vitae dignissim id, placerat adipiscing lorem. Nulla consectetur adipiscing metus vel pulvinar. Aenean molestie mauris non diam tincidunt faucibus. Integer odio dui, iaculis in congue eleifend, faucibus nec diam. Maecenas ac est odio, at dignissim dolor. Quisque gravida, purus vitae varius sagittis, odio erat venenatis nibh, eu interdum diam est eu sem. Vivamus luctus lectus sit amet lectus egestas cursus.
-                            <br>
-                            <br>
-                            <a href="#" class="readmore" onclick="loadBlogById(38)">Read more</a>
-                        </div>
-                    </div>
-                    <div class="blog py-3">
-                        <h4>Mattis sed laoreet ac, ultrices</h4>
-                        <div>by Super User in 
-                            <a href="#" onclick="loadBlogsByCategory(31)">Blog.
-                    Donec eu elit in nisi</a> 
-                            on Sat, Sep 16, 2017, GMT+7 Hits: 210 
-                            <a href="#comments" onclick="loadBlogById(39)">Comments (1)</a>
-                        </div>
-                        <div class="py-3">
-                            <img src="images/blog/blog-thumb3.jpg" alt="" class="round-img pull-left img-thumbnail"> In neque arcu, vulputate vitae dignissim id, placerat adipiscing lorem. Nulla consectetur adipiscing metus vel pulvinar. Aenean molestie mauris non diam tincidunt faucibus. Integer odio dui, iaculis in congue eleifend, faucibus nec diam. Maecenas ac est odio, at dignissim dolor. Quisque gravida, purus vitae varius sagittis, odio erat venenatis nibh, eu interdum diam est eu sem. Vivamus luctus lectus sit amet lectus egestas cursus.
-                            <br>
-                            <br>
-                            <a href="#" class="readmore" onclick="loadBlogById(39)">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix py-3" id="blogs-pagination">
-                    <nav aria-label="Page navigation">
-                        <ul class="pagination">
-                            <li class="page-item disabled">
-                                <a class="page-link" href="#" onclick="loadBlogs('blogs', 1)">
-                                    <span>1</span>
-                                </a>
-                            </li>            
-                            <li class="page-item">
-                                <a class="page-link" href="#" onclick="loadBlogs('blogs', 2)">2</a>
-                            </li>
-                            <li class="page-item">
-                                <a class="page-link" href="#" onclick="loadBlogs('blogs', 3)">3</a>
-                            </li>
-                        </ul>
-                    </nav>      
-                </div>
-            </div>
-            <div class="col-md-3 py-3">
-                <div>
-                    <h3 class="text-dark pb-3">Categories</h3>
-                    <ul class="list" id="blogs-categories">
-                        <li>
-                            <a href="# " onclick="loadBlogsByCategory(31) ">Donec eu elit in nisi</a>
-                        </li>
-                        <li>
-                            <a href="# " onclick="loadBlogsByCategory(32) ">In neque arcu vulputate</a>
-                        </li>
-                        <li>
-                            <a href="# " onclick="loadBlogsByCategory(33) ">Quisque gravida purus vitae</a>
-                        </li>
-                        <li>
-                            <a href="# " onclick="loadBlogsByCategory(34) ">Vivamus luctus lectus sit</a>
-                        </li>
-                        <li>
-                            <a href="# " onclick="loadBlogsByCategory(35) ">Vivamus congue turpis in augue</a>
-                        </li>
-                        <li>
-                            <a href="# " onclick="loadBlogsByCategory(36) ">Curabitur eu dignissim velit</a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-dark pb-3">Archives</h3>
-                    <ul class="list" id="blogs-archives">
-                        <li>
-                            <a href="#" onclick="loadBlogsByArchive(1,2013) ">January, 2013</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="loadBlogsByArchive(1,2015) ">January, 2015</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="loadBlogsByArchive(8,2015) ">August, 2015</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="loadBlogsByArchive(2,2016) ">Febuary, 2016</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="loadBlogsByArchive(8,2017) ">August, 2017</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="loadBlogsByArchive(9,2017) ">Septemper, 2017</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="loadBlogsByArchive(7,2018) ">July, 2018</a>
-                        </li>
-                        <li>
-                            <a href="#" onclick="loadBlogsByArchive(5,2021) ">May, 2021</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+  <!--Small banner-->
+  <section id="banner-small"></section>
+  <!--Blogs-->
+  <section class="container py-5">
+    <div class="row">
+      <div class="col-8" id="blogs"></div>
+      <div class="col-4" id="blogs-categories"></div>
     </div>
-
-    <!--Footer-->
-    <footer class="text-center container-fluid text-white py-3">
-        <ul class="nav justify-content-center py-3" id="menu-footer">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html" aria-current="page">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contacts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalLogin">Login</a>
-            </li>
+  </section>
+  <!--Footer-->
+  <footer class="text-center container-fluid text-white py-3">
+    <ul class="nav justify-content-center py-3" id="menu-footer">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html" aria-current="page">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="blog.html">Blogs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contacts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalLogin">Login</a>
+        </li>
+    </ul>
+    <p class="text-white-50">Web1 Project &copy; 2022 by Duong Hoai Huong - 21880057</p>
+  </footer>
+  <!-- Modal Login -->
+  <div class="modal fade" id="modalLogin" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTitleId">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="#" method="post">
+            <h3 class="text-center">Login Form</h3>
+            <div class="mb-3">
+              <input type="text" name="username" id="username" placeholder="Username" class="form-control">
+            </div>
+            <div class="mb-3">
+              <input type="password" name="password" id="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="form-control btn">Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Optional: Place to the bottom of scripts -->
+  <script>
+    const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
+  </script>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <!--HandlebarsJS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"    integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/handlebars-pagination-helper.js"></script>
+  <script src="js/21880057.js"></script>
+  <script id="blogs-template" type="text/x-handlebars-template">
+    <h1>Blogs</h1>
+    {{#each data}}
+    <div class="clearfix py-3">
+      <h3>{{name}}</h3>
+      <p class="text-black-50">by {{author}} in <a href="#" onclick="loadBlogs('blogs/categories/{{category.id}}')">{{category.name}}</a> on {{formatDate date}}. <a href="">Comments ({{comments.length}})</a></p>
+      <img src="{{thumbpath}}" alt="{{name}}" class="float-start me-3 border rounded-4">
+      <p class="text-black-50">{{summary}}</p>
+      <a href="#" class="btn btn-link readmore ps-0">Read more</a>
+    </div>
+    {{/each}}
+    {{#pagination currentPage pageCount}}
+    <nav aria-label="Page navigation">
+      <ul class="pagination">
+        {{#each pages}}
+        {{#if isCurrent}}
+        <li class="page-item disabled" aria-current="page"><a class="page-link" href="#"
+          onclick="loadBlogs('{{../../request}}', {{page}})">{{page}}</a></li>
+        {{/if}}
+        {{#unless isCurrent}}
+        <li class="page-item"><a class="page-link" href="#"
+          onclick="loadBlogs('{{../../request}}', {{page}})">{{page}}</a></li>
+        {{/unless}}
+        {{/each}}
+      </ul>
+    </nav>
+    {{/pagination}}
+  </script>
+  <script id="blogs-categories-template" type="text/x-handlebars-template">
+    <h1>Categories</h1>
+        <ul class="py-3">
+          {{#each data}}
+          <li><a class="text-black-50 text-decoration-none" href="#"
+            onclick="loadBlogs('blogs/categories/{{id}}')">{{name}}</a></li>
+          {{/each}}
         </ul>
-        <p class="text-white-50">Web1 Project &copy; 2022 by Duong Hoai Huong - 21880057</p>
-      </footer>
-      
-      <!-- Modal Login -->
-      <div class="modal fade" id="modalLogin" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modalTitleId">Modal title</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </script>
+  <script id="details-template" type="text/x-handlebars-template">
+    <h1>Blogs</h1>
+    {{#each data}}
+    <div class="py-3">
+      <h3>{{name}}</h3>
+      <p>by {{author}} in {{category.name}} on {{formatDate date}}. <a href="">Comments ({{comments.length}})</a></p>
+      <img src="{{imagepath}}" alt="{{name}}" class="float-start mr-3 rounded-4">
+      <p>{{{description}}}</p>
+    </div>
+    <div class="py-3">
+      <h3>Leave your comments</h3>
+      <form action="#" method="post" class="text-black-50">
+        <div class="row">
+          <div class="col-4">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name (Required)</label>
+              <input type="text" class="form-control" name="name" id="name" placeholder="" required>
             </div>
-            <div class="modal-body">
-              <form action="#" method="post">
-                <h3 class="text-center">Login Form</h3>
-                <div class="mb-3">
-                  <input type="text" name="username" id="username" placeholder="Username" class="form-control">
-                </div>
-                <div class="mb-3">
-                  <input type="password" name="password" id="password" placeholder="Password" class="form-control">
-                </div>
-                <button type="submit" class="form-control btn">Login</button>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save</button>
+          </div>
+          <div class="col-4">
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="text" class="form-control" name="email" id="email" placeholder="">
             </div>
           </div>
         </div>
+        <div>
+          <div class="mb-3">
+            <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="agree" name="agree" value="1">
+              <label class="form-check-label" for="agree">Agree to term and conditions</label>
+            </div>              
+          </div>
+          <div class="col text-end">
+            <button type="submit" class="btn btn-link">Submit Comment</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="bg-dark text-white-50">
+      COMMENTS
+    </div>
+    <div class="py-3">
+      {{#each comments}}
+      <div>
+        <p>{{author}}</p>
       </div>
+      {{/each}}
+    </div>
+    {{/each}}
+  </script>
+  <script>
+    Handlebars.registerHelper('formatDate', function(date) {
+      let formatDate = new Date(date);
+      let options = {
+        weekday: 'short',
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+        timeZoneName: 'short'
+      };
+      return formatDate.toLocaleString('en-US', options);
+    });
+    async function loadBlogs(request, currentPage = 1){
+      const response = await fetch( `${API}/${request}?page=${currentPage}`);
+      const context = await response.json();
+      context.currentPage = currentPage;
+      context.request = request;
+      var source = document.getElementById('blogs-template').innerHTML;
+      var template = Handlebars.compile(source);
+      var view = document.getElementById('blogs');
+      view.innerHTML = template(context);      
+    }
+    loadBlogs('blogs');
+    loadData('blogs-categories', 'blogs-categories-template','blogs-categories');
+  </script>
+
+</body>
       
-      
-      <!-- Optional: Place to the bottom of scripts -->
-      <script>
-        const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
-      
-      </script>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-          integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-        </script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-          integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-        </script>
-      </body>
-      
-      </html>
+</html>
